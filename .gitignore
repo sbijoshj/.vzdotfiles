@@ -20,6 +20,15 @@ Session.vim
 *~
 
 
+# ignore ctags files
+
+# Ignore tags created by etags and ctags
+TAGS
+!TAGS/
+tags
+!tags/
+
+
 # ignore java binary and package files
 
 *.class
