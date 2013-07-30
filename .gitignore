@@ -1,5 +1,26 @@
+# ignore linux hidden and temporary files
 
-# java
+.*
+!.gitignore
+*~
+
+
+# ignore subversion folders
+
+.svn/
+
+
+
+# ignore vim backup and temp files
+
+*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+# ignore java binary and package files
 
 *.class
 
@@ -9,7 +30,7 @@
 *.ear
 
 
-# node.js
+# ignore node.js build and temporary files
 
 lib-cov
 *.seed
@@ -28,7 +49,7 @@ npm-debug.log
 node_modules
 
 
-# python
+# ignore python package and temporary files
 
 *.py[cod]
 
@@ -66,3 +87,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
